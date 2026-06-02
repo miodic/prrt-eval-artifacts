@@ -1,0 +1,18 @@
+# Exclude version control
+.git
+.gitignore
+
+# Exclude build artifacts
+target/
+dist/
+bin/
+obj/
+
+# Exclude local environment/logs
+node_modules/
+.venv/
+*.log
+
+# Exclude Docker files themselves
+Dockerfile
+.dockerignore
